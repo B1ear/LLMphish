@@ -1,0 +1,15 @@
+{
+  "llm": {
+    "dashscope_api_key": "your_dashscope_api_key_here",
+    "deepseek_api_key": "your_deepseek_api_key_here"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "log_level": "INFO"
+  },
+  "detection": {
+    "max_upload_size_mb": 10,
+    "session_expire_seconds": 3600
+  }
+}

@@ -6,7 +6,6 @@ LLM 服务模块：集成阿里云 DashScope (Qwen3) 和 DeepSeek (DeepSeek-V3) 
 
 from __future__ import annotations
 
-import os
 import json
 from typing import Dict, Any, Optional, List
 from enum import Enum
@@ -16,6 +15,8 @@ try:
     OPENAI_AVAILABLE = True
 except ImportError:
     OPENAI_AVAILABLE = False
+
+from .config import config
 
 
 class LLMProvider(str, Enum):
@@ -38,20 +39,26 @@ class LLMService:
             return
         
         # 初始化 DashScope (Qwen3) 客户端
-        dashscope_key = os.getenv("DASHSCOPE_API_KEY")
+        dashscope_key = config.dashscope_api_key
         if dashscope_key:
             self.dashscope_client = AsyncOpenAI(
                 api_key=dashscope_key,
                 base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
             )
+            print("✅ DashScope (Qwen) 客户端初始化成功")
+        else:
+            print("⚠️  DashScope API Key 未配置")
         
         # 初始化 DeepSeek (DeepSeek-V3) 客户端
-        deepseek_key = os.getenv("DEEPSEEK_API_KEY")
+        deepseek_key = config.deepseek_api_key
         if deepseek_key:
             self.deepseek_client = AsyncOpenAI(
                 api_key=deepseek_key,
                 base_url="https://api.deepseek.com/v1"
             )
+            print("✅ DeepSeek 客户端初始化成功")
+        else:
+            print("⚠️  DeepSeek API Key 未配置")
     
     def is_available(self, provider: LLMProvider) -> bool:
         """检查指定提供商是否可用"""

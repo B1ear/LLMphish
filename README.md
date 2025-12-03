@@ -58,16 +58,36 @@ yarn install
 
 ### 配置
 
+#### 配置文件（推荐）
+
+如果需要使用 LLM 检测功能，配置 API Keys：
+
+1. 复制配置文件模板：
+```bash
+cd backend
+cp config.example.json config.json
+```
+
+2. 编辑 `backend/config.json`，填入你的 API Keys：
+```json
+{
+  "llm": {
+    "dashscope_api_key": "your_dashscope_api_key_here",
+    "deepseek_api_key": "your_deepseek_api_key_here"
+  }
+}
+```
+
 #### 环境变量（可选）
 
-如果需要使用 LLM 检测功能，创建 `.env` 文件：
+也可以使用环境变量（优先级高于配置文件）：
 
 ```bash
 # 阿里云 DashScope (Qwen)
-DASHSCOPE_API_KEY=your_dashscope_api_key
+export DASHSCOPE_API_KEY=your_dashscope_api_key
 
 # DeepSeek
-DEEPSEEK_API_KEY=your_deepseek_api_key
+export DEEPSEEK_API_KEY=your_deepseek_api_key
 ```
 
 ### 运行

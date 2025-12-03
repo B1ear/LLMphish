@@ -36,18 +36,38 @@ npm run dev
 
 前端将在 `http://localhost:5173` 运行
 
-### 环境变量
+### 配置文件
 
-创建 `.env` 文件（可选）：
+创建配置文件（推荐）：
 
 ```bash
-# LLM API Keys (可选)
-DASHSCOPE_API_KEY=your_key_here
-DEEPSEEK_API_KEY=your_key_here
+cd backend
+cp config.example.json config.json
+```
 
-# 服务器配置
-HOST=0.0.0.0
-PORT=8000
+编辑 `config.json` 填入配置：
+
+```json
+{
+  "llm": {
+    "dashscope_api_key": "your_key_here",
+    "deepseek_api_key": "your_key_here"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "log_level": "INFO"
+  }
+}
+```
+
+### 环境变量（可选）
+
+也可以使用环境变量（优先级高于配置文件）：
+
+```bash
+export DASHSCOPE_API_KEY=your_key_here
+export DEEPSEEK_API_KEY=your_key_here
 ```
 
 ## 生产环境

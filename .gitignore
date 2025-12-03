@@ -60,6 +60,9 @@ venv.bak/
 .env.local
 .env.*.local
 
+# Configuration files with API keys
+backend/config.json
+
 # Node
 node_modules/
 npm-debug.log*
