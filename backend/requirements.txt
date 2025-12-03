@@ -7,5 +7,6 @@ xgboost==2.1.1
 Pillow==10.4.0
 playwright==1.48.0
 openai==1.54.3
+httpx==0.27.0
 
 
