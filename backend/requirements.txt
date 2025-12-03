@@ -1,0 +1,11 @@
+fastapi==0.115.5
+uvicorn==0.32.1
+python-multipart==0.0.17
+scikit-learn==1.5.2
+joblib==1.4.2
+xgboost==2.1.1
+Pillow==10.4.0
+playwright==1.48.0
+openai==1.54.3
+
+

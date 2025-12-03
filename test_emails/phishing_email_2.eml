@@ -1,0 +1,40 @@
+From: no-reply@amazon-security.tk
+To: customer@example.com
+Subject: Your Amazon Order #9876543 - Payment Failed - Verify Now!
+Date: Fri, 19 Jan 2024 02:15:00 +0800
+Content-Type: text/plain; charset=utf-8
+
+URGENT NOTICE FROM AMAZON
+
+Dear Valued Customer,
+
+Your recent order #9876543 for $1,299.99 could not be processed due to payment verification failure.
+
+ORDER DETAILS:
+- iPhone 15 Pro Max (2 units)
+- Total: $1,299.99
+- Status: PAYMENT FAILED
+
+If this purchase was not made by you, your account may have been compromised!
+
+IMMEDIATE ACTION REQUIRED:
+
+Click here to verify your payment information:
+http://amazon-security.tk/verify-payment?order=9876543&token=xyz789
+
+You must verify within 2 hours or the order will be automatically processed and charged to your account.
+
+To cancel this order and secure your account, please provide:
+- Full name on credit card
+- Credit card number
+- Expiration date
+- CVV security code
+- Billing address
+- Social security number (for identity verification)
+
+WARNING: Failure to respond will result in automatic charge and account suspension.
+
+Amazon Security Department
+DO NOT REPLY TO THIS EMAIL
+
+This is an automated security alert. For immediate assistance, click the verification link above.

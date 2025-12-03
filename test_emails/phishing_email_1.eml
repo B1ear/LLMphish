@@ -1,0 +1,50 @@
+From: security@paypa1-secure.com
+To: victim@example.com
+Subject: URGENT: Your Account Will Be Suspended in 24 Hours!
+Date: Thu, 18 Jan 2024 23:45:00 +0800
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h1 style="color: red;">URGENT SECURITY ALERT</h1>
+    
+    <p><strong>Dear PayPal User,</strong></p>
+    
+    <p>We have detected suspicious activity on your account. Your account will be 
+    <span style="color: red; font-weight: bold;">PERMANENTLY SUSPENDED</span> 
+    within 24 hours unless you verify your identity immediately.</p>
+    
+    <h2>Suspicious Activities Detected:</h2>
+    <ul>
+        <li>Unusual login from unknown location</li>
+        <li>Multiple failed password attempts</li>
+        <li>Potential unauthorized transactions</li>
+    </ul>
+    
+    <p><strong style="color: red;">IMMEDIATE ACTION REQUIRED!</strong></p>
+    
+    <p>Click the link below to verify your account NOW:</p>
+    
+    <a href="http://paypa1-secure.com/verify?id=abc123" 
+       style="background: red; color: white; padding: 15px; text-decoration: none; font-size: 18px;">
+        VERIFY ACCOUNT NOW
+    </a>
+    
+    <p>If you do not verify within 24 hours, your account will be closed and 
+    all funds will be frozen.</p>
+    
+    <p>Please provide the following information:</p>
+    <ul>
+        <li>Full Name</li>
+        <li>Credit Card Number</li>
+        <li>CVV Code</li>
+        <li>Social Security Number</li>
+        <li>Date of Birth</li>
+    </ul>
+    
+    <p>Act now to avoid losing access to your account!</p>
+    
+    <p>PayPal Security Team</p>
+</body>
+</html>

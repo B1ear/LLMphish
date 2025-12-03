@@ -1,0 +1,229 @@
+{
+  "n_samples": 4277,
+  "n_features": 26,
+  "feature_names": [
+    "num_chars",
+    "num_lines",
+    "num_urls",
+    "subject_len",
+    "keyword_hit_count",
+    "brand_hit_count",
+    "high_risk_url_count",
+    "anchor_mismatch_count",
+    "unique_domains",
+    "has_ip_url",
+    "has_html",
+    "has_script_or_form",
+    "has_attachment_hint",
+    "fake_sender_score",
+    "has_base64",
+    "base64_blocks",
+    "chinese_keyword_count",
+    "attachment_risk_score",
+    "received_count",
+    "boundary_count",
+    "has_x_mailer",
+    "spf_fail",
+    "dkim_fail",
+    "dmarc_fail",
+    "dkim_present",
+    "spf_present"
+  ],
+  "feature_statistics": {
+    "num_chars": {
+      "mean": 297864.7332242226,
+      "std": 952284.3291979398,
+      "min": 1068.0,
+      "max": 6170731.0,
+      "median": 61653.0
+    },
+    "num_lines": {
+      "mean": 3853.284077624503,
+      "std": 12241.381590617122,
+      "min": 25.0,
+      "max": 79161.0,
+      "median": 809.0
+    },
+    "num_urls": {
+      "mean": 2.6109422492401215,
+      "std": 9.175612530148706,
+      "min": 0.0,
+      "max": 152.0,
+      "median": 0.0
+    },
+    "subject_len": {
+      "mean": 35.7589431844751,
+      "std": 23.884299821862882,
+      "min": 0.0,
+      "max": 67.0,
+      "median": 44.0
+    },
+    "keyword_hit_count": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "median": 0.0
+    },
+    "brand_hit_count": {
+      "mean": 0.6247369651624971,
+      "std": 0.6470563964186733,
+      "min": 0.0,
+      "max": 3.0,
+      "median": 1.0
+    },
+    "high_risk_url_count": {
+      "mean": 0.011456628477905073,
+      "std": 0.16640909306019694,
+      "min": 0.0,
+      "max": 4.0,
+      "median": 0.0
+    },
+    "anchor_mismatch_count": {
+      "mean": 0.0014028524666822538,
+      "std": 0.04833341959169811,
+      "min": 0.0,
+      "max": 2.0,
+      "median": 0.0
+    },
+    "unique_domains": {
+      "mean": 0.8791208791208791,
+      "std": 2.340767460985316,
+      "min": 0.0,
+      "max": 28.0,
+      "median": 0.0
+    },
+    "has_ip_url": {
+      "mean": 0.025485153144727612,
+      "std": 0.15759333778404905,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0
+    },
+    "has_html": {
+      "mean": 0.3177460837035305,
+      "std": 0.46560016107664687,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0
+    },
+    "has_script_or_form": {
+      "mean": 0.00046761748889408465,
+      "std": 0.021619408474289135,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0
+    },
+    "has_attachment_hint": {
+      "mean": 0.2331073182137012,
+      "std": 0.4228100003653147,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0
+    },
+    "fake_sender_score": {
+      "mean": 0.2775309796586392,
+      "std": 0.4488237627021807,
+      "min": 0.0,
+      "max": 2.0,
+      "median": 0.0
+    },
+    "has_base64": {
+      "mean": 0.7264437689969605,
+      "std": 0.4457838259542973,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 1.0
+    },
+    "base64_blocks": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "median": 0.0
+    },
+    "chinese_keyword_count": {
+      "mean": 0.0016366612111292963,
+      "std": 0.07005215894937052,
+      "min": 0.0,
+      "max": 4.0,
+      "median": 0.0
+    },
+    "attachment_risk_score": {
+      "mean": 0.05050268880056114,
+      "std": 0.22215989667614874,
+      "min": 0.0,
+      "max": 2.0,
+      "median": 0.0
+    },
+    "received_count": {
+      "mean": 2.4213233574935704,
+      "std": 1.1846946266364364,
+      "min": 0.0,
+      "max": 14.0,
+      "median": 2.0
+    },
+    "boundary_count": {
+      "mean": 1.0984334814122048,
+      "std": 0.5269362358601732,
+      "min": 0.0,
+      "max": 3.0,
+      "median": 1.0
+    },
+    "has_x_mailer": {
+      "mean": 0.5015197568389058,
+      "std": 0.499997690333816,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 1.0
+    },
+    "spf_fail": {
+      "mean": 0.00023380874444704232,
+      "std": 0.015289018213020169,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0
+    },
+    "dkim_fail": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "median": 0.0
+    },
+    "dmarc_fail": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "median": 0.0
+    },
+    "dkim_present": {
+      "mean": 0.5075987841945289,
+      "std": 0.49994225514429663,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 1.0
+    },
+    "spf_present": {
+      "mean": 0.015431377133504794,
+      "std": 0.12326090107275842,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0
+    }
+  },
+  "model_params": {
+    "n_estimators": 300,
+    "contamination": 0.1,
+    "random_state": 42
+  },
+  "evaluation": {
+    "n_outliers": 427,
+    "n_inliers": 3850,
+    "score_min": -0.6922727701003016,
+    "score_max": -0.3704519301348403,
+    "score_mean": -0.44890938110348705,
+    "score_std": 0.0671815852236272
+  }
+}
