@@ -1,3 +1,5 @@
+
+
 # LLMPhish - 智能钓鱼邮件检测系统
 
 基于机器学习和大语言模型的钓鱼邮件检测系统，集成多种检测方法，提供高准确率的邮件安全分析。
@@ -36,8 +38,8 @@
 #### 1. 克隆项目
 
 ```bash
-git clone https://github.com/yourusername/LLMPhish.git
-cd LLMPhish
+git clone https://github.com/B1ear/LLMphish.git
+cd LLMphish
 ```
 
 #### 2. 安装后端依赖
